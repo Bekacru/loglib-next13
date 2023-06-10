@@ -5,12 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postinstall": "npx prisma db push && npx prisma generate",
+    "postinstall": "prisma db push && prisma generate",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@loglib/next": "^0.0.9",
+    "@loglib/next": "latest",
     "@loglib/prisma-adapter": "^0.0.8",
     "@loglib/tracker": "^0.0.6",
     "@loglib/ui": "^0.0.9",
